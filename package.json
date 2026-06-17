@@ -1,0 +1,21 @@
+{
+    "name": "hw18-business-backend",
+    "version": "1.0.0",
+    "description": "Business rules backend for HW18 Customer Table. It does not connect directly to MongoDB.",
+    "main": "src/server.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js"
+    },
+    "author": "Gabriel Molina",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.3",
+        "express": "^5.2.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.14"
+    }
+}
