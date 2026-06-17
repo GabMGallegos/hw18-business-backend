@@ -1,8 +1,5 @@
 function calculateAdjustedTime(vinyl) {
-    const timeRecord = Number(vinyl.time_record);
-    const qualityDisk = Number(vinyl.qualitydisk);
-
-    return timeRecord + qualityDisk * 15;
+    return vinyl.time_record + vinyl.qualitydisk * 15;
 }
 
 function applyBusinessRule(vinyl) {
